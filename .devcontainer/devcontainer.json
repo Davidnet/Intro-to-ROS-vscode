@@ -1,0 +1,18 @@
+{
+    "name": "ROS tutorial",
+    "dockerComposeFile": "docker-compose.yml",
+	"service": "ros-service",
+	"workspaceFolder": "/workspace",
+
+
+	// You can edit these settings after create using File > Preferences > Settings > Remote.
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash",
+	},
+
+	// Specifies a command to run after the container is created
+
+	"extensions": [
+        "ms-iot.vscode-ros"
+	]
+}
